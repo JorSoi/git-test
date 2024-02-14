@@ -1,0 +1,29 @@
+* {
+    font-size: 1.5rem;
+}
+
+body {
+    background-color: beige;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#day,
+#month {
+    margin-right: 3px;
+}
